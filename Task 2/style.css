@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(215, 255, 252);
+}
+h1{
+    text-align: center;
+}
+.inputTags{
+    padding: 15px 20px;
+    width: 400px;
+    border: none;
+    margin: 10px 0px;
+}
+form{
+    width: 430px;
+    margin: 0 auto;
+}
+#submit{
+    padding: 10px 100px;
+    background-color: #fcf8f8;
+    border: none;
+    border-radius: 10px;
+}
+#inputBtn{
+    width: 250px;
+    margin: 20px auto;
+}
+table, td {
+    border-collapse: collapse;
+    padding: 20px 40px;
+    width: 400px;
+    margin: 0 auto;
+}
+th, td {
+    background-color: #5e949012;;
+}
+td:nth-child(odd){
+    width: 200px;
+    text-align: center;
+}
+a{
+    display: block;
+}
+img{
+    width: 200px;
+}
