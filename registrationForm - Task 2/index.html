@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration form</title>
+    <!-- CSS -->
+    <link href="./style.css" rel="stylesheet" />
+</head>
+<body>
+    <h1> Registration form </h1>
+    <form>
+        Name <br/>
+        <input type="text" class="inputTags" id="input1" /> <br/> 
+        Image link <br/> 
+        <input type="url" class="inputTags" id="input2" /> <br/> 
+        Website link <br/> 
+        <input type="url" class="inputTags" id="input3" /> <br/> 
+        <div id="inputBtn">
+            <input type="button" onclick="show()" value="Submit" id="submit"  /> 
+        </div>
+    </form>
+    
+    <div id="tableItems"></div>
+
+    <!-- JS -->
+    <script src="./main.js"></script>
+</body>
+</html>
